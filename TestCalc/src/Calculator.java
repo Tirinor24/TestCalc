@@ -14,16 +14,16 @@ class Main {
     private static int b;
     private static int result;
     private static boolean isRoman;
-    private static String[] romanNumerals = {"i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x",
-            "xi", "xii", "xiii", "xiv", "xv", "xvi", "xvii", "xviii", "xix", "xx",
-            "xxi", "xxii", "xxiii", "xxiv", "xxv", "xxvi", "xxvii", "xxviii", "xxix", "xxx",
-            "xxxi", "xxxii", "xxxiii", "xxxiv", "xxxv", "xxxvi", "xxxvii", "xxxviii", "xxxix", "xxxx",
-            "xli", "xlii", "xliii", "xliv", "xlv", "xlvi", "xlvii", "xlviii", "xlix", "l",
-            "li", "lii", "liii", "liv", "lv", "lvi", "lvii", "lviii", "lix", "lx",
-            "lxi", "lxii", "lxiii", "lxiv", "lxv", "lxvi", "lxvii", "lxviii", "lxix", "lxx",
-            "lxxi", "lxxii", "lxxiii", "lxxiv", "lxxv", "lxxvi", "lxxvii", "lxxviii", "lxxix", "lxxx",
-            "lxxxi", "lxxxii", "lxxxiii", "lxxxiv", "lxxxv", "lxxxvi", "lxxxvii", "lxxxviii", "lxxxix", "xc",
-            "xci", "xcii", "xciii", "xciv", "xcv", "xcvi", "xcvii", "xcviii", "xcix", "c"};
+    private static String[] romanNumerals = {“I”, “II”, “III”, “IV”, “V”, “VI”, “VII”, “VIII”, “IX”, “X”,
+            “XI”, “XII”, “XIII”, “XIV”, “XV”, “XVI”, “XVII”, “XVIII”, “XIX”, “XX”,
+            “XXI”, “XXII”, “XXIII”, “XXIV”, “XXV”, “XXVI”, “XXVII”, “XXVIII”, “XXIX”, “XXX”,
+            “XXXI”, “XXXII”, “XXXIII”, “XXXIV”, “XXXV”, “XXXVI”, “XXXVII”, “XXXVIII”, “XXXIX”, “XXXX”,
+            “XLI”, “XLII”, “XLIII”, “XLIV”, “XLV”, “XLVI”, “XLVII”, “XLVIII”, “XLIX”, “L”,
+            “LI”, “LII”, “LIII”, “LIV”, “LV”, “LVI”, “LVII”, “LVIII”, “LIX”, “LX”,
+            “LXI”, “LXII”, “LXIII”, “LXIV”, “LXV”, “LXVI”, “LXVII”, “LXVIII”, “LXIX”, “LXX”,
+            “LXXI”, “LXXII”, “LXXIII”, “LXXIV”, “LXXV”, “LXXVI”, “LXXVII”, “LXXVIII”, “LXXIX”, “LXXX”,
+            “LXXXI”, “LXXXII”, “LXXXIII”, “LXXXIV”, “LXXXV”, “LXXXVI”, “LXXXVII”, “LXXXVIII”, “LXXXIX”, “XC”,
+            “XCI”, “XCII”, “XCIII”, “XCIV”, “XCV”, “XCVI”, “XCVII”, “XCVIII”, “XCIX”, “C”};
       public static String calc(String input) throws Exception {
         String[] elements = input.split(" ");
         if (elements.length != 3) {
