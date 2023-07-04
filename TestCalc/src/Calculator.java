@@ -43,7 +43,7 @@ class Main {
                 }
           }
 
-        if (a>10 || b>10) {
+        if (a>10 || b>10 || a<1 || b<1) {
             throw new Exception();
         }
 
